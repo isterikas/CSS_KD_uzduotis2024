@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand text-warning fw-bold px-3" href="#">LOGO</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-end px-5"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link text-secondary fw-bold" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary fw-bold" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary fw-bold" href="#">Why Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary fw-bold" href="#">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-secondary fw-bold" href="#">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  
+    <header class="d-flex flex-column align-items-start justify-content-center">
+      
+      <p class="header__paragraph--capitalize text-white">
+        choose your quality delivery of your cargo
+      </p>
+      <section class="container-tracking-section d-flex justify-content-start mx-auto">
+        <form>
+          <input
+            type="text"
+            placeholder="Enter your tracking number"
+            class="rounded"
+          />
+          <input
+            type="submit"
+            value="Track Now"
+            class="btn btn-warning text-white"
+          />
+        </form>
+      </section>
+   
+    </header>
+    <main>
+      <!-- Service types -->
+
+      <section class="service-types my-3">
+        <article
+          class="sea-freight d-flex flex-column align-items-center justify-content-center w-75"
+        >
+          <figure>
+            <img
+              src="./images/cargo_sea_small.jpg"
+              alt="blurred"
+              class="service-type__img--sizing"
+            />
+          </figure>
+          <h3 class="service-type__heading--uppercase orange-text">
+            Sea Freight
+          </h3>
+          <p class="p-2 service-types__paragraph--font-change text-secondary">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia.
+          </p>
+        </article>
+        <article
+          class="air-freight d-flex flex-column align-items-center justify-content-center w-75 mx-1"
+        >
+          <figure>
+            <img
+              src="./images/cargo_air_small.jpg"
+              alt="blurred"
+              class="service-type__img--sizing"
+            />
+          </figure>
+          <h3 class="service-type__heading--uppercase orange-text">
+            Air Freight
+          </h3>
+          <p class="p-2 service-types__paragraph--font-change text-secondary">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia.
+          </p>
+        </article>
+
+        <article
+          class="package-forwarding d-flex flex-column align-items-center justify-content-center w-75"
+        >
+          <figure>
+            <img
+              src="./images/cargo_delivery_small.jpg"
+              alt="blurred"
+              class="service-type__img--sizing mx-auto"
+            />
+          </figure>
+
+          <h3 class="service-type__heading--uppercase orange-text">
+            Package Forwarding
+          </h3>
+          <p class="p-2 service-types__paragraph--font-change text-secondary">
+            Far far away, behind the word mountains, far from the countries
+            Vokalia and Consonantia.
+          </p>
+        </article>
+      </section>
+      <!-- What we offer -->
+
+      <section class="services">
+        <h1>What We Offer</h1>
+        <p class="services__paragraph--font-change text-secondary">
+          Far far away, behind the word mountains, far from the countries
+          Vokalia and Consonantia, there live the blind texts.
+        </p>
+        <div class="services-articles">
+          <article class="services__article--sorting p-3 m-2 rounded">
+            <figure>
+              <img
+                src="./icons/vessel.svg"
+                alt="vessel"
+                class="article__icon--size"
+              />
+            </figure>
+            <h3 class="services__heading--uppercase">Sea Freight</h3>
+            <p class="services__paragraph--font-change text-secondary text-start">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia.
+            </p>
+          </article>
+
+          <article class="services__article--sorting p-3 m-2 rounded">
+            <figure>
+              <img
+                src="./icons/plane.svg"
+                alt="plane"
+                class="article__icon--size"
+              />
+            </figure>
+            <h3 class="services__heading--uppercase">Air Freight</h3>
+            <p class="services__paragraph--font-change text-secondary text-start">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia.
+            </p>
+          </article>
+          <article class="services__article--sorting p-3 m-2 rounded">
+            <figure>
+              <img
+                src="./icons/package.svg"
+                alt="package"
+                class="article__icon--size"
+              />
+            </figure>
+            <h3 class="services__heading--uppercase">Package Forwarding</h3>
+            <p class="services__paragraph--font-change text-secondary text-start">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia.
+            </p>
+          </article>
+          <article class="services__article--sorting p-3 m-2 rounded">
+            <figure>
+              <img
+                src="./icons/truck.svg"
+                alt="truck"
+                class="article__icon--size"
+              />
+            </figure>
+            <h3 class="services__heading--uppercase">Trucking</h3>
+            <p class="services__paragraph--font-change text-secondary text-start">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia.
+            </p>
+          </article>
+          <article class="services__article--sorting p-3 m-2 rounded">
+            <figure>
+              <img
+                src="./icons/warehouse.svg"
+                alt="warehouse"
+                class="article__icon--size"
+              />
+            </figure>
+            <h3 class="services__heading--uppercase">Warehouse</h3>
+            <p class="services__paragraph--font-change text-secondary text-start">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia.
+            </p>
+          </article>
+          <article class="services__article--sorting p-3 m-2 rounded">
+            <figure>
+              <img
+                src="./icons/delivery.svg"
+                alt="delivery"
+                class="article__icon--size"
+              />
+            </figure>
+            <h3 class="services__heading--uppercase">Delivery</h3>
+            <p class="services__paragraph--font-change text-secondary text-start">
+              A small river named Duden flows by their place and supplies it
+              with the necessary regelialia.
+            </p>
+          </article>
+        </div>
+      </section>
+      <!-- Why us -->
+
+      <section class="why-us my-3 px-5">
+        <div class="left">
+          <h3 class="why-us__heading--uppercase">Why Us</h3>
+          <h4 class="why-us__heading--uppercase orange-text">
+            We work quickly and efficiently!
+          </h4>
+          <p class="why-us__paragraph--font-change text-secondary">
+            A small river named Duden flows by their place and supplies it with
+            the necessary regelialia. It is a paradisematic country, in which
+            roasted parts of sentences fly into your mouth.
+          </p>
+          <ul class="why-us__ul--bullet-modifier text-secondary">
+            <li>Cargo express</li>
+            <li>Secure Services</li>
+            <li>Secure Warehouseing</li>
+            <li>Cost savings</li>
+            <li>Proven by great companies</li>
+          </ul>
+        </div>
+        <figure>
+          <img
+            src="./images/cargo_sea_small.jpg"
+            alt="image"
+            class="image-last"
+          />
+        </figure>
+      </section>
+    </main>
+    <footer
+      class="bg-black text-white py-3 d-flex align-items-center justify-content-center"
+    >
+      <p class="m-0 footer__paragraph--font-change">All Rights Reserved. Design by Eryk Tatol, TECHIN, 2024</p>
+    </footer>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
